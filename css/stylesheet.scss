@@ -10,7 +10,7 @@ body {  }
  margin: 0 auto;
  padding: 0;
  position: relative;
- width: 1200px;
+ width: 1100px;
 }
 
 #p-header {
@@ -39,7 +39,7 @@ body {  }
  nav {
   display: block;
   float: right;
-  margin: 20px 50px 0 0;
+  margin: 20px 0 0 0;
   overflow: hidden;
   padding: 0;
   a {
@@ -51,7 +51,10 @@ body {  }
    line-height: 20px;
    margin-left: 50px;
    &:last-child { margin-right: 0; }
-   &:hover { opacity: .8; }
+   &:hover {
+    border-bottom: 2px solid #e7141a;
+    color: #e7141a;
+   }
   }
  }
 }
@@ -100,9 +103,10 @@ body {  }
    padding: 0;
    aside {
     article {
-     width: 640px;
+     width: 590px;
      h2 {
       color: #956f25;
+      font-family: 'Belleza', sans-serif;
       font-size: 34px;
       line-height: 34px;
       margin: 15px 0 10px;
@@ -115,13 +119,13 @@ body {  }
      }
      p.desc {
       color: #000;
-      font-size: 19px;
+      font-size: 18px;
       font-weight: bold;
       margin-bottom: 15px;
      }
      p.info {
       font-size: 16px;
-      line-height: 28px;
+      line-height: 2.4;
       margin-bottom: 50px;
      }
      a.read-more {
@@ -189,6 +193,8 @@ body {  }
  overflow: hidden;
  padding: 65px 0 15px;
  .contact {
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 75px;
   h3 {
    color: #956f25;
    display: block;
@@ -229,7 +235,8 @@ body {  }
   }
   p {
    display: block;
-   font-size: 17px;
+   font-size: 16px;
+   line-height: 2.4;
    margin: 25px auto 40px;
    width: 730px;
   }
@@ -261,6 +268,37 @@ body {  }
   }
  }
  .copyright {
-
+  display: block;
+  margin: 25px auto 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 930px;
+  .logo-footer {
+    display: block;
+    float: left;
+    overflow: hidden;
+    img {
+      display: block;
+      float: left;
+      height: 42px;
+      width: 45px;
+    }
+    a {
+      color: #956f25;
+      display: block;
+      float: left;
+      font-size: 14px;
+      line-height: 14px;
+      margin: 10px 0 0 10px;
+    }
+  }
+  .copy {
+    display: block;
+    float: right;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 12px;
+  }
  }
 }
