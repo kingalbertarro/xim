@@ -1,0 +1,208 @@
+/*****************************************************
+------------------------------------------------------
+------------------------------------------------------
+       !DO NOT CHANGE ANYTHING..
+       EVERYTHING INSIDE HERE IS PREDEFINED
+       IT MAY AFFECT YOU CODES
+------------------------------------------------------
+------------------------------------------------------
+*****************************************************/
+
+@charset "UTF-8";
+
+/* RESET
+------------------------------------------------------
+------------------------------------------------------
+----------------------------------------------------*/
+ html {
+  color: #000;
+  background: #fff;
+  font-family: メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, sans-serif !important;
+  font-size: 100%;
+  letter-spacing: 1px;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing:    border-box; 
+  -o-box-sizing:      border-box;
+  box-sizing:         border-box;
+ }
+
+ *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+
+ legend{color:#000}
+ ol,ul{list-style:none}
+ *{text-decoration: none;}
+ caption,th{text-align:left}
+ sup{vertical-align:text-top}
+ img {border: none !important;}
+ sub{vertical-align:text-bottom}
+ input,textarea,select{*font-size:100%}
+ a{color:inherit;text-decoration: none;}
+ textarea {outline: none; resize: none;}
+ abbr,acronym{border:0;font-variant:normal}
+ h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+ table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}
+ input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+ address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal}
+ q:before,q:after{content:''}
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,a,blockquote,figure{margin:0;padding:0;}
+
+/* PREDEFINED CLASSES
+------------------------------------------------------
+------------------------------------------------------
+----------------------------------------------------*/
+ .mt10 { margin-top: 10px !important; }
+ .mt15 { margin-top: 15px !important; }
+ .mt20 { margin-top: 20px !important; }
+ .mt25 { margin-top: 25px !important; }
+ .mt30 { margin-top: 30px !important; }
+ .mt35 { margin-top: 35px !important; }
+ .mt40 { margin-top: 40px !important; }
+ .mt45 { margin-top: 45px !important; }
+ .mt50 { margin-top: 50px !important; }
+ .mt55 { margin-top: 55px !important; }
+ .mt60 { margin-top: 60px !important; }
+ .mt65 { margin-top: 65px !important; }
+ .mt70 { margin-top: 70px !important; }
+ .mt75 { margin-top: 75px !important; }
+ .mt80 { margin-top: 80px !important; }
+ .mt85 { margin-top: 85px !important; }
+ .mt90 { margin-top: 90px !important; }
+ .mt95 { margin-top: 95px !important; }
+ .mt100 { margin-top: 100px !important; }
+
+ .mb10 { margin-bottom: 10px !important; }
+ .mb15 { margin-bottom: 15px !important; }
+ .mb20 { margin-bottom: 20px !important; }
+ .mb25 { margin-bottom: 25px !important; }
+ .mb30 { margin-bottom: 30px !important; }
+ .mb35 { margin-bottom: 35px !important; }
+ .mb40 { margin-bottom: 40px !important; }
+ .mb45 { margin-bottom: 45px !important; }
+ .mb50 { margin-bottom: 50px !important; }
+ .mb55 { margin-bottom: 55px !important; }
+ .mb60 { margin-bottom: 60px !important; }
+ .mb65 { margin-bottom: 65px !important; }
+ .mb70 { margin-bottom: 70px !important; }
+ .mb75 { margin-bottom: 75px !important; }
+ .mb80 { margin-bottom: 80px !important; }
+ .mb85 { margin-bottom: 85px !important; }
+ .mb90 { margin-bottom: 90px !important; }
+ .mb95 { margin-bottom: 95px !important; }
+ .mb100 { margin-bottom: 100px !important; }
+
+ .ml10 { margin-left: 10px !important; }
+ .ml15 { margin-left: 15px !important; }
+ .ml20 { margin-left: 20px !important; }
+ .ml25 { margin-left: 25px !important; }
+ .ml30 { margin-left: 30px !important; }
+ .ml35 { margin-left: 35px !important; }
+ .ml40 { margin-left: 40px !important; }
+ .ml45 { margin-left: 45px !important; }
+ .ml50 { margin-left: 50px !important; }
+ .ml55 { margin-left: 55px !important; }
+ .ml60 { margin-left: 60px !important; }
+ .ml65 { margin-left: 65px !important; }
+ .ml70 { margin-left: 70px !important; }
+ .ml75 { margin-left: 75px !important; }
+ .ml80 { margin-left: 80px !important; }
+ .ml85 { margin-left: 85px !important; }
+ .ml90 { margin-left: 90px !important; }
+ .ml95 { margin-left: 95px !important; }
+ .ml100 { margin-left: 100px !important; }
+
+ .mr10 { margin-right: 10px !important; }
+ .mr15 { margin-right: 15px !important; }
+ .mr20 { margin-right: 20px !important; }
+ .mr25 { margin-right: 25px !important; }
+ .mr30 { margin-right: 30px !important; }
+ .mr35 { margin-right: 35px !important; }
+ .mr40 { margin-right: 40px !important; }
+ .mr45 { margin-right: 45px !important; }
+ .mr50 { margin-right: 50px !important; }
+ .mr55 { margin-right: 55px !important; }
+ .mr60 { margin-right: 60px !important; }
+ .mr65 { margin-right: 65px !important; }
+ .mr70 { margin-right: 70px !important; }
+ .mr75 { margin-right: 75px !important; }
+ .mr80 { margin-right: 80px !important; }
+ .mr85 { margin-right: 85px !important; }
+ .mr90 { margin-right: 90px !important; }
+ .mr95 { margin-right: 95px !important; }
+ .mr100 { margin-right: 100px !important; }
+
+ .img-rep { text-indent: 100%; white-space: nowrap; overflow: hidden; } /*like text-indent: -999px but better*/
+ .box-fix { overflow: hidden; position: relative; }
+ .word-break { word-break: break-all; } /* for Chinise,Japanese,Korean Char */
+ .word-wrap { overflow: hidden; word-wrap: break-word; }  /* non CJK  */
+ .ellipsis-2 { display: -webkit-box; overflow: hidden; -webkit-line-clamp: 2; -webkit-box-orient: vertical; } /* 2lines */
+ .ellipsis-3 { display: -webkit-box; overflow: hidden; -webkit-line-clamp: 3; -webkit-box-orient: vertical; } /* 3lines */
+
+
+ /*-- COLUMNS
+ ---- Specify individual styles inside corresponding ID elements
+ ---- <div id="box1" class="col2"> ... </div>
+ ---- DO NOT CHANGE 
+ --*/
+ .col2, .col3, .col4, .col5 { display: block; position: relative; overflow: auto; }
+  .col2-items, .col3-items, .col4-items, .col5-items { display: block; float: left; }
+  .col2-items { width: 49%; margin-left: 2%; }
+  .col2-items:nth-child(2n+1) { margin-left: 0 !important }
+
+  .col3-items { width: 32%; margin-left: 2%; }
+  .col3-items:nth-child(3n+1) { margin-left: 0 !important }
+
+  .col4-items { width: 24%; margin-left: 1.31%; }
+  .col4-items:nth-child(4n-7) { margin-left: 0 !important; }
+
+  .col5-items { width: 19%; margin-left: 1.23%; }
+  .col5-items:nth-child(5n+1) { margin-left: 0 !important; }
+
+
+ /*-- UNORDERED LISTS
+ ---- Specify individual styles inside corresponding ID elements
+ ---- <ul id="box1"> <li class="ulist2"> ... </li> </ul>
+ ---- DO NOT CHANGE 
+ --*/
+
+ .ulist2, .ulist3, .ulist4, .ulist5 { display: block; position: relative; overflow: hidden; }
+  .ulist2-items, .ulist3-items, .ulist4-items, .ulist5-items { display: block; float: left; }
+
+  .ulist2-items { width: 49%; margin-left: 2%;}
+  .ulist2-items:nth-child(2n+1) { margin-left: 0 !important }
+
+  .ulist3-items { width: 32%; margin-left: 2%; }
+  .ulist3-items:nth-child(3n+1) { margin-left: 0 !important }
+
+  .ulist4-items { width: 24%; margin-left: 1.31%; }
+  .ulist4-items:nth-child(4n-7) { margin-left: 0 !important; }
+
+  .ulist5-items { width: 19%; margin-left: 1.23%; }
+  .ulist5-items:nth-child(5n+1) { margin-left: 0 !important; }
+
+  /*-- ROW LISTS
+ ---- Specify individual styles inside corresponding ID elements
+ ---- <div id="box1"> <div class="rlist-items"> ... </div> </div>
+ ---- DO NOT CHANGE 
+ --*/
+
+ .rlistf { display: block; }
+ .rlistf-items { overflow: hidden; position: relative; margin-bottom: 4px;  }
+  .rlistf-items__img { float: left; width: 29%; }
+   .rlistf-items__img img { width: 100%; }
+  .rlistf-items__dtl { float: left; margin-left: 2%; width: 69%; }
+
+.rlist60 { display: block; }
+ .rlist60-items { display: block; margin-top: 5px; overflow: hidden; position: relative; }
+  .rlist60-items__img { display: block; float: left; height: 60px; width: 60px; }
+   .rlist60-items__img img { width: 100%; }
+  .rlist60-items__dtl { float: left; margin-left: -60px; width: 100%; }
+  .rlist60-items__wrap { margin-left: 70px; overflow: hidden; padding-right: 5px; position: relative; }
+
+ .rlist80 { display: block; }
+ .rlist80-items { display: block; margin-top: 5px; overflow: hidden; position: relative; }
+  .rlist80-items__img { display: block; float: left; height: 80px; width: 80px; }
+   .rlist80-items__img img { width: 100%; }
+  .rlist80-items__dtl { float: left; margin-left: -80px; width: 100%; }
+  .rlist80-items__wrap { margin-left: 90px; overflow: hidden; padding-right: 5px; position: relative; }
