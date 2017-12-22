@@ -148,28 +148,22 @@
 	<script type="text/javascript">
 		AOS.init();
 
-     // Sticky Nav
-    $('#p-header').addClass('original').clone().insertAfter('#p-header').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
+    //offset() measures how far down the sticky element is from the top of the window
+    var stickyTop = $("#p-header").offset().top;
 
+    //whenever the user scrolls, measure how far we have scrolled
+    $(window).scroll(function() {
+      var windowTop = $(window).scrollTop();
 
-    scrollIntervalID = setInterval(stickIt, 10);
-		function stickIt() {
-		  var orgElementPos = $('.original').offset();
-      orgElementTop = orgElementPos.top;               
+      //check to see if we have scrolled past the original location of the sticky element
+      if (windowTop > stickyTop) {
 
-      if ($(window).scrollTop() >= (orgElementTop)) {   
-        orgElement = $('.original');
-		    coordsOrgElement = orgElement.offset();
-		    leftOrgElement = coordsOrgElement.left;  
-		    widthOrgElement = orgElement.css('width');
-        $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
-		    $('.original').css('visibility','hidden');
-        }
-        else {
-          $('.cloned').hide();
-          $('.original').css('visibility','visible');
-        }
-    }
+       //if so, change the sticky element to fised positioning
+       $("#p-header").addClass("stuck");
+      } else {   
+      $("#p-header").removeClass("stuck");
+      }
+    });
 	</script>
 
 </body>
