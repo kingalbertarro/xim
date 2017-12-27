@@ -21,18 +21,33 @@
 	
 	<header id="p-header"> <!-- #p-header -->
 		<div class="container">
-			<figure class="logo">
-				<a href=""><img src="images/common/logo-h.png" alt=""></a>
+			<figure class="logo" data-aos="fade-right" data-aos-duration="1000">
+				<a href=""><img src="images/common/logo.png" alt=""></a>
 			</figure>
-			<nav>
-				<a href="">HOME <span class="bar">&nbsp;</span></a>
-				<a href="">COMPANY <span class="bar">&nbsp;</span></a>
-				<a href="">BUSINESS <span class="bar">&nbsp;</span></a>
-				<a href="">RECRUIT <span class="bar">&nbsp;</span></a>
-				<a href="">CONTACT <span class="bar">&nbsp;</span></a>
+			<nav data-aos="fade-left" data-aos-duration="1500">
+				<a href="" data-aos="fade-left">HOME <span class="bar">&nbsp;</span></a>
+				<a href="" data-aos="fade-left">COMPANY <span class="bar">&nbsp;</span></a>
+				<a href="" data-aos="fade-left">BUSINESS <span class="bar">&nbsp;</span></a>
+				<a href="" data-aos="fade-left">RECRUIT <span class="bar">&nbsp;</span></a>
+				<a href="" data-aos="fade-left">CONTACT <span class="bar">&nbsp;</span></a>
 			</nav>
 		</div>
 	</header> <!-- // #p-header -->
+
+  <header id="s-header"> <!-- #p-header -->
+    <div class="container">
+      <figure class="logo" data-aos="fade-right" data-aos-duration="1000">
+        <a href=""><img src="images/common/logo.png" alt=""></a>
+      </figure>
+      <nav data-aos="fade-left" data-aos-duration="1500">
+        <a href="" data-aos="fade-left">HOME <span class="bar">&nbsp;</span></a>
+        <a href="" data-aos="fade-left">COMPANY <span class="bar">&nbsp;</span></a>
+        <a href="" data-aos="fade-left">BUSINESS <span class="bar">&nbsp;</span></a>
+        <a href="" data-aos="fade-left">RECRUIT <span class="bar">&nbsp;</span></a>
+        <a href="" data-aos="fade-left">CONTACT <span class="bar">&nbsp;</span></a>
+      </nav>
+    </div>
+  </header> <!-- // #p-header -->
 
 	<div id="p-banner"> <!-- #p-banner -->
 		<figure class="banner-cover">
@@ -144,8 +159,8 @@
 			</section>
 			<section class="copyright">
 					<figure class="logo-footer">
-						<img src="images/common/logo-h.png" alt="" />
-						<a href="https://www.xim.co.jp">http://xima.co.jp</a>
+						<img src="images/common/logo.png" alt="" />
+						<a href="https://www.xim.co.jp">https://www.xim.co.jp</a>
 					</figure>
 					<p class="copy">Copyright © XiM inc All Rights Reserved.</p>
 			</section>
@@ -161,7 +176,7 @@
 		AOS.init();
 
 		//offset() measures how far down the sticky element is from the top of the window
-		var stickyTop = $("#p-header").offset().top;
+		var stickyTop = $("#p-banner").offset().top;
 
 		//whenever the user scrolls, measure how far we have scrolled
 		$(window).scroll(function() {
@@ -171,9 +186,9 @@
 			if (windowTop > stickyTop) {
 
 			 //if so, change the sticky element to fised positioning
-			 $("#p-header").addClass("stuck");
+			 $("#s-header").addClass("stuck");
 			} else {   
-			$("#p-header").removeClass("stuck");
+			$("#s-header").removeClass("stuck");
 			}
 		});
 	</script>
