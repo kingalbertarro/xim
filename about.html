@@ -13,6 +13,10 @@
  <link href="https://fonts.googleapis.com/css?family=Belleza" rel="stylesheet">
  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+
 </head>
 
 <body>
@@ -50,9 +54,11 @@
 	</header> <!-- // #p-header -->
 
  <div id="p-banner"> <!-- #p-banner -->
-	<figure class="banner-cover">
-	 <img src="images/common/banner.jpg" alt="">
-	</figure>
+	<section class="other-banner">
+    <img src="images/common/logo.png" alt="">
+    <h2>ABOUT</h2>
+    <p>会社概要</p>
+  </section>
  </div> <!--// #p-banner -->
 
 <div id="p-contents-wrap"> <!-- #p-contents-wrap -->
@@ -61,10 +67,21 @@
     <section class="company-information">
       <aside class="container">
         <div class="gallery">
-
+          <div class="slider slider-single">
+            <div><figure class="cover"><img src="images/common/sample01.jpg" alt=""></figure></div>
+            <div><figure class="cover"><img src="images/common/sample01.jpg" alt=""></figure></div>
+            <div><figure class="cover"><img src="images/common/sample01.jpg" alt=""></figure></div>
+            <div><figure class="cover"><img src="images/common/sample01.jpg" alt=""></figure></div>
+			    </div>
+			    <div class="slider slider-nav">
+            <div class="slider-items"><figure class="cover"><img src="images/common/sample01.jpg" alt=""></figure></div>
+            <div class="slider-items"><figure class="cover"><img src="images/common/sample01.jpg" alt=""></figure></div>
+            <div class="slider-items"><figure class="cover"><img src="images/common/sample01.jpg" alt=""></figure></div>
+            <div class="slider-items"><figure class="cover"><img src="images/common/sample01.jpg" alt=""></figure></div>
+			    </div>
         </div>
-        <article>
-          <table>
+        <article class="detailed-info">
+          <table class="info-lists">
             <tr>
               <td>商号</td>
               <td>株式会社XiM</td>
@@ -73,7 +90,7 @@
               <td>本社所在地</td>
               <td>
                 〒151-005<br />
-                東京都渋谷区千駄ヶ谷四丁目16番7号北参道DTビル5階
+                東京都渋谷区千駄ヶ谷四丁目16番7号北参道DTビル5階<br>
                 <a href="">拠点一覧はこちら≫</a>
               </td>
             </tr>
@@ -85,6 +102,70 @@
                 2017年4月19日
               </td>
             </tr>
+            <tr>
+              <td>
+                資本金
+              </td>
+              <td>
+                1,000万円
+              </td>
+            </tr>
+            <tr>
+              <td>
+                代表取締役
+              </td>
+              <td>
+                雨瀧　浩一郎
+              </td>
+            </tr>
+            <tr>
+              <td>
+                取締役
+              </td>
+              <td>
+                本田　真也
+              </td>
+            </tr>
+            <tr>
+              <td>
+                従業員数
+              </td>
+              <td>
+                40名（社員31名・アルバイト9名）
+              </td>
+            </tr>
+            <tr>
+              <td>
+                事業内容
+              </td>
+              <td>
+                IT通信事業 <br/>
+                HR事業 <br/>
+                Google事業 <br/>
+                パートナー事業 <br/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                取引先金融機関
+              </td>
+              <td>
+                三菱東京UFJ銀行<br>
+                三井住友銀行<br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                お問い合わせ
+              </td>
+              <td>
+                TEL 03-4405-5577<br>
+                FAX 03-4243-3300<br>
+                E-mail info@xim.co.jp<br>
+                <a href="">お問い合わせフォーム≫</a><br>
+                <a href="">オンラインルーム≫</a>
+              </td>
+            </tr>
           </table>
         </article>
       </aside>
@@ -92,7 +173,69 @@
     <h1 class="main-title">拠点一覧<span class="trans">Branch Offices</span></h1>
     <section class="branch-office">
       <aside class="container">
+          <div class="branches">
+            <figure class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.4732942669516!2d135.55677817541024!3d34.70037248556256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0f72d69d88d%3A0xa0850fb192d2e45!2z5pel5pys44CB44CSNTM2LTAwMDIg5aSn6Ziq5bqc5aSn6Ziq5biC5Z-O5p2x5Yy65LuK56aP5p2x77yR5LiB55uu77yR77yS4oiS77yT!5e0!3m2!1sja!2sph!4v1513239523184" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <a href="" class="go-to">東京都渋谷区</a>
+            </figure>
+            <article class="address">
+              <h5>北参道本社</h5>
+              <p>
+                〒151-0051 <br>
+                東京都渋谷区千駄ヶ谷4-16-7北参道DTビル5F <br>
+                北参道駅 徒歩3分(2番出口) <br>
+                千駄ヶ谷駅 徒歩5分(A4出口) <br>
+                国立競技場駅 徒歩5分(A4出口) <br>
+                代々木駅 徒歩7分(西口) <br>
+              </p>
+            </article>
+          </div>
 
+          <div class="branches">
+            <figure class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.4732942669516!2d135.55677817541024!3d34.70037248556256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0f72d69d88d%3A0xa0850fb192d2e45!2z5pel5pys44CB44CSNTM2LTAwMDIg5aSn6Ziq5bqc5aSn6Ziq5biC5Z-O5p2x5Yy65LuK56aP5p2x77yR5LiB55uu77yR77yS4oiS77yT!5e0!3m2!1sja!2sph!4v1513239523184" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <a href="" class="go-to">東京都渋谷区</a>
+            </figure>
+            <article class="address">
+              <h5>渋谷支社</h5>
+              <p>
+                〒150-0041 <br>
+                東京都渋谷区神南1-18-2フレーム神南坂5F <br>
+                渋谷駅 徒歩5分(13番出口)<br>
+              </p>
+            </article>
+          </div>
+
+          <div class="branches">
+            <figure class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.4732942669516!2d135.55677817541024!3d34.70037248556256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0f72d69d88d%3A0xa0850fb192d2e45!2z5pel5pys44CB44CSNTM2LTAwMDIg5aSn6Ziq5bqc5aSn6Ziq5biC5Z-O5p2x5Yy65LuK56aP5p2x77yR5LiB55uu77yR77yS4oiS77yT!5e0!3m2!1sja!2sph!4v1513239523184" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <a href="" class="go-to">東京都渋谷区</a>
+            </figure>
+            <article class="address">
+              <h5>新宿支社</h5>
+              <p>
+                〒160-0022 <br>
+                東京都新宿区新宿5-13-5ドルチェ新宿ビル2F <br>
+                新宿三丁目駅 徒歩4分(E1出口) <br>
+                東新宿駅 徒歩5分(A3出口)<br>
+              </p>
+            </article>
+          </div>
+
+          <div class="branches">
+            <figure class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.4732942669516!2d135.55677817541024!3d34.70037248556256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0f72d69d88d%3A0xa0850fb192d2e45!2z5pel5pys44CB44CSNTM2LTAwMDIg5aSn6Ziq5bqc5aSn6Ziq5biC5Z-O5p2x5Yy65LuK56aP5p2x77yR5LiB55uu77yR77yS4oiS77yT!5e0!3m2!1sja!2sph!4v1513239523184" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <a href="" class="go-to">東京都渋谷区</a>
+            </figure>
+            <article class="address">
+              <h5>飯田橋支社</h5>
+              <p>
+                〒162-0814 <br>
+                東京都新宿区新小川町5-4NICビル4F <br>
+                飯田橋駅 徒歩7分(東口) <br>
+              </p>
+            </article>
+          </div>
       </aside>
     </section>
 
@@ -125,6 +268,8 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  <script type="text/javascript" src="js/jquery.page-scroller.js" charset="utf-8"></script>
  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+ <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
  <script type="text/javascript">
 	AOS.init();
@@ -145,6 +290,68 @@
 	 $("#s-header").removeClass("stuck");
 	 }
 	});
+
+ </script>
+
+ <script type="text/javascript">
+ $(document).ready(function(){
+   $('.slider-single').slick({
+  	slidesToShow: 1,
+  	slidesToScroll: 1,
+  	arrows: true,
+  	fade: false,
+  	adaptiveHeight: true,
+  	infinite: false,
+ 	useTransform: true,
+  	speed: 400,
+  	cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
+  });
+
+  $('.slider-nav')
+  	.on('init', function(event, slick) {
+  		$('.slider-nav .slick-slide.slick-current').addClass('is-active');
+  	})
+  	.slick({
+  		slidesToShow: 7,
+  		slidesToScroll: 7,
+  		dots: false,
+  		focusOnSelect: false,
+  		infinite: false,
+  		responsive: [{
+  			breakpoint: 1024,
+  			settings: {
+  				slidesToShow: 5,
+  				slidesToScroll: 5,
+  			}
+  		}, {
+  			breakpoint: 640,
+  			settings: {
+  				slidesToShow: 4,
+  				slidesToScroll: 4,
+ 			}
+  		}, {
+  			breakpoint: 420,
+  			settings: {
+  				slidesToShow: 3,
+  				slidesToScroll: 3,
+ 		}
+  		}]
+  	});
+
+  $('.slider-single').on('afterChange', function(event, slick, currentSlide) {
+  	$('.slider-nav').slick('slickGoTo', currentSlide);
+  	var currrentNavSlideElem = '.slider-nav .slick-slide[data-slick-index="' + currentSlide + '"]';
+  	$('.slider-nav .slick-slide.is-active').removeClass('is-active');
+  	$(currrentNavSlideElem).addClass('is-active');
+  });
+
+  $('.slider-nav').on('click', '.slick-slide', function(event) {
+  	event.preventDefault();
+  	var goToSingleSlide = $(this).data('slick-index');
+
+  	$('.slider-single').slick('slickGoTo', goToSingleSlide);
+  });
+  });
  </script>
 
 </body>
