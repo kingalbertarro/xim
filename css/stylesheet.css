@@ -379,6 +379,8 @@
         font-weight: bold; }
       #p-contents .branch-office .branches .address p {
         font-size: 16px; }
+  #p-contents .contact-form {
+    display: block; }
 
 #p-footer {
   background-image: url("../images/common/bg-03.jpg");
