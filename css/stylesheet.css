@@ -201,8 +201,8 @@
     color: #956f25;
     display: block;
     font-family: 'Belleza', sans-serif;
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 40px;
+    line-height: 40px;
     margin: 0 0 70px;
     padding: 35px;
     text-align: center;
@@ -332,16 +332,17 @@
       width: 645px; }
       #p-contents .company-information .detailed-info table.info-lists {
         border-collapse: collapse; }
-        #p-contents .company-information .detailed-info table.info-lists tr {
-          border-bottom: 2px dotted #000; }
-          #p-contents .company-information .detailed-info table.info-lists tr td {
-            font-size: 16px;
-            padding: 20px 0; }
-            #p-contents .company-information .detailed-info table.info-lists tr td:nth-child(1) {
-              padding-left: 22px;
-              width: 180px; }
-            #p-contents .company-information .detailed-info table.info-lists tr td a {
-              color: #031581; }
+        #p-contents .company-information .detailed-info table.info-lists tr td {
+          border-bottom: 2px dotted #000;
+          border-left: 2px dotted #fff;
+          border-right: 2px dotted #fff;
+          font-size: 16px;
+          padding: 20px 0; }
+          #p-contents .company-information .detailed-info table.info-lists tr td:nth-child(1) {
+            padding-left: 22px;
+            width: 180px; }
+          #p-contents .company-information .detailed-info table.info-lists tr td a {
+            color: #031581; }
   #p-contents .branch-office .branches {
     display: block;
     margin: 0 auto 100px;
