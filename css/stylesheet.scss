@@ -189,7 +189,7 @@ body {  }
    width: 200px;
    img {
      display: block;
-     margin: 0 auto;
+     margin: 0 auto 5px;
      width: 50px;
    }
    h2 {
@@ -453,6 +453,154 @@ body {  }
   }
   .contact-form {
     display: block;
+    .c-intro {
+      font-size: 15px;
+      margin: 0 auto;
+      width: 290px;
+    }
+    .table-form {
+      border-collapse: separate;
+      border-spacing: 15px 30px;
+      margin: 10px auto 0;
+      width: 950px;
+      tr {
+        td {
+          overflow: hidden;
+          &:nth-child(1) {
+            width: 150px;
+            p {
+              display: inline;
+              color: #956f25;
+              font-size: 15px;
+              line-height: 15px;
+              margin-bottom: 30px;
+              width: 200px;
+            }
+          }
+          &:nth-child(2) {
+            width: 45px;
+            .required {
+              display: block;
+              border: 1px solid #e7141a;
+              color: #e7141a;
+              font-size: 12px;
+              line-height: 12px;
+              padding: 6px 0;
+              text-align: center;
+              width: 100%;
+            }
+          }
+          &:nth-child(3) {
+            .wrapper {
+              display: inline;
+              position: relative;
+              padding-left: 25px;
+              margin-right: 50px;
+              cursor: pointer;
+              font-size: 15px;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              input {
+                position: absolute;
+                opacity: 0;
+              }
+              .checkmark {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 15px;
+                width: 15px;
+                background-color: #eee;
+                border-radius: 50%;
+                &:after {
+                 	top: 4px;
+                	left: 4px;
+                	width: 7px;
+                	height: 7px;
+                	border-radius: 50%;
+                	background: white;
+                }
+                &:after {
+                  content: "";
+                  position: absolute;
+                  display: none;
+                }
+              }
+              &:hover input ~ .checkmark {
+                background-color: #ccc;
+              }
+              input:checked ~ .checkmark {
+                background-color: #2196F3;
+              }
+              input:checked ~ .checkmark:after {
+                  display: block;
+              }
+            }
+            input[type="text"] {
+              background-color: #eee;
+              border: none;
+              color: #808080;
+              font-size: 14px;
+              line-height: 14px;
+              padding: 15px;
+              outline: none;
+              width: 100%;
+            }
+            input[type="submit"] {
+              background-color: #878686;
+              border: 0;
+              border-radius: 20px;
+              color: #fff;
+              cursor: pointer;
+              display: block;
+              font-size: 20px;
+              margin: 50px auto;
+              outline: 0;
+              padding: 15px 0;
+              text-align: center;
+              transition: .3s;
+              width: 560px;
+              &:hover { opacity: .8; }
+            }
+            textarea {
+              background-color: #eee;
+              border: none;
+              color: #808080;
+              font-size: 14px;
+              padding: 15px;
+              width: 100%;
+            }
+            .screening {
+              display: block;
+              font-size: 15px;
+              line-height: 2.4;
+              margin: 0 auto;
+              text-align: center;
+            }
+            .contact-phone {
+              display: block;
+              font-size: 15px;
+              line-height: 2.4;
+              margin: 0 auto;
+              width: 560px;
+              .bold {
+                font-size: 17px;
+                font-weight: bold;
+              }
+              strong {
+                font-weight: bold;
+              }
+              .ooki {
+                font-size: 32px;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
   }
  }
 
