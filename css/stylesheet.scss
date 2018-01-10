@@ -581,10 +581,10 @@ body {  }
               margin: 0 auto;
               text-align: center;
             }
-            .contact-phone {
+            .contact-phone, .head-office {
               display: block;
               font-size: 15px;
-              line-height: 2.4;
+              line-height: 2;
               margin: 0 auto;
               width: 560px;
               .bold {
@@ -597,8 +597,10 @@ body {  }
               .ooki {
                 font-size: 32px;
                 font-weight: bold;
+                line-height: 32px;
               }
             }
+            .head-office { margin-top: 20px; }
           }
         }
       }
