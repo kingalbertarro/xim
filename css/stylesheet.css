@@ -541,6 +541,54 @@
           width: 100%; }
       #p-contents .requirements .requirements-lists tr td a {
         color: #031581; }
+  #p-contents .process .diagram {
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    display: table;
+    margin: 0 auto 25px;
+    width: 1040px; }
+    #p-contents .process .diagram li {
+      background: #fff;
+      border: 4.5px solid #956f25;
+      display: table-cell;
+      height: 144px;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      width: 197.5px; }
+      #p-contents .process .diagram li:last-child {
+        background-color: #956f25;
+        color: #fff; }
+        #p-contents .process .diagram li:last-child:after {
+          width: 0; }
+      #p-contents .process .diagram li:after {
+        background-image: url("../images/common/arrow-right.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        content: '';
+        color: #956f25;
+        display: block;
+        font-size: 50px;
+        font-weight: bold;
+        height: 20px;
+        position: absolute;
+        right: -46px;
+        top: 45%;
+        width: 46.5px; }
+      #p-contents .process .diagram li h3 {
+        color: #956f25;
+        font-size: 20px; }
+      #p-contents .process .diagram li strong {
+        display: block;
+        font-size: 22px; }
+      #p-contents .process .diagram li span {
+        display: block;
+        font-size: 15px; }
+  #p-contents .process p {
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 940px; }
 
 #p-footer {
   background-image: url("../images/common/bg-03.jpg");

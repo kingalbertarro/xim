@@ -46,10 +46,29 @@
       </aside>
     </section>
 
-
+    <h2 class="main-title">選考プロセス<span class="trans">Process</span></h2>
     <section class="process">
       <aside class="container">
-
+        <ul class="diagram">
+          <li>
+            <h3>Application</h3>
+            <strong>応募</strong>
+            <span>(WEBまたは電話）</span>
+          </li>
+          <li>
+            <h3>Interview</h3>
+            <strong>面接</strong>
+          </li>
+          <li>
+            <h3>Explanation</h3>
+            <strong>就業説明</strong>
+          </li>
+          <li>
+            <strong>就業</strong>
+          </li>
+        </ul>
+        <p>※応募時に面接日時の設定を行います。</p>
+        <p>※面接から2営業日以内に選考の結果をご連絡いたします。</p>
       </aside>
     </section>
 
