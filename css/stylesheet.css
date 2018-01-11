@@ -491,25 +491,29 @@
           line-height: 2.4;
           margin: 0 auto;
           text-align: center; }
-        #p-contents .contact-form .table-form tr td:nth-child(3) .contact-phone, #p-contents .contact-form .table-form tr td:nth-child(3) .head-office {
+        #p-contents .contact-form .table-form tr td:nth-child(3) .contact-phone {
           display: block;
           font-size: 15px;
-          line-height: 2;
+          line-height: 2.4;
           margin: 0 auto;
           width: 560px; }
-          #p-contents .contact-form .table-form tr td:nth-child(3) .contact-phone .bold, #p-contents .contact-form .table-form tr td:nth-child(3) .head-office .bold {
+          #p-contents .contact-form .table-form tr td:nth-child(3) .contact-phone .bold {
             font-size: 17px;
             font-weight: bold; }
-          #p-contents .contact-form .table-form tr td:nth-child(3) .contact-phone strong, #p-contents .contact-form .table-form tr td:nth-child(3) .head-office strong {
+          #p-contents .contact-form .table-form tr td:nth-child(3) .contact-phone strong {
             font-weight: bold; }
-          #p-contents .contact-form .table-form tr td:nth-child(3) .contact-phone .ooki, #p-contents .contact-form .table-form tr td:nth-child(3) .head-office .ooki {
+          #p-contents .contact-form .table-form tr td:nth-child(3) .contact-phone .ooki {
             font-size: 32px;
+<<<<<<< HEAD
             font-weight: bold;
             line-height: 32px; }
         #p-contents .contact-form .table-form tr td:nth-child(3) .head-office {
           margin-top: 20px; }
 =======
 >>>>>>> parent of dfab5bd... Updates some elements
+=======
+            font-weight: bold; }
+>>>>>>> parent of 059cb82... - Fix some elements in "Contact"
 
 #p-footer {
   background-image: url("../images/common/bg-03.jpg");

@@ -96,8 +96,6 @@
                 <p class="contact-phone">
                   <span class="bold">お電話でもお問い合わせいただけます。</span><br>
                   <strong>TEL</strong> <span class="ooki">03-4405-5577</span>(受付時間：10:00〜19:00）<br>
-                </p>
-                <p class="head-office">
                   北参道本社<br>
                   〒151-0051 東京都渋谷区千駄ヶ谷4-16-7北参道DTビル5F
                 </p>
