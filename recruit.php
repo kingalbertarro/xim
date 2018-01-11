@@ -2,7 +2,7 @@
 
  <div id="p-banner"> <!-- #p-banner -->
 	<section class="other-banner">
-    <img src="images/common/logo.png" alt="">
+    <img src="images/common/img-tie.png" alt="">
     <h2>RECRUIT</h2>
     <p>採用情報</p>
   </section>
@@ -23,7 +23,33 @@
             <td>雇用形態</td>
             <td>正社員 / 契約社員 / アルバイト</td>
           </tr>
+          <tr>
+            <td>勤務地</td>
+            <td>
+              北参道本社（東京都渋谷区千駄ヶ谷4-16-7北参道DTビル5F）<br>
+              <figure class="status-img">
+                <img src="images/common/sample02.png" alt="">
+              </figure>
+              ※業務の都合による就業場所の変更があり得ます。<br>
+              <a href="#">拠点一覧はこちら≫</a>
+            </td>
+          </tr>
+          <tr>
+            <td>年収</td>
+            <td>経験、技術等を考慮し、面接時に人事制度の説明を行います。</td>
+          </tr>
+          <tr>
+            <td>勤務時間</td>
+            <td>9：00〜21：00 上記の間の9時間（1時間休憩）とする。</td>
+          </tr>
         </table>
+      </aside>
+    </section>
+
+
+    <section class="process">
+      <aside class="container">
+
       </aside>
     </section>
 

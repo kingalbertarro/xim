@@ -236,6 +236,26 @@ body {  }
     line-height: 15px;
    }
   }
+  h2.main-title {
+   background-image: url('../images/common/bg-02.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #956f25;
+   display: block;
+   font-family: 'Belleza', sans-serif;
+   font-size: 32px;
+   line-height: 32px;
+   margin: 0 0 70px;
+   padding: 25px;
+   text-align: center;
+   width: 100%;
+   span.trans {
+    display: block;
+    font-size: 15px;
+    line-height: 15px;
+   }
+  }
   section {
    display: block;
    margin: 0 0 150px;
@@ -454,8 +474,6 @@ body {  }
     }
   }
   .contact-form {
-    display: block;
-<<<<<<< HEAD
     .c-intro {
       font-size: 15px;
       margin: 0 auto;
@@ -604,8 +622,39 @@ body {  }
         }
       }
     }
-=======
->>>>>>> parent of dfab5bd... Updates some elements
+  }
+  .requirements {
+    .requirements-lists {
+      border-collapse: collapse;
+      width: 100%;
+      tr {
+        td {
+          border-bottom: 2px dotted #000;
+          border-left: 2px dotted #fff;
+          border-right: 2px dotted #fff;
+          font-size: 22px;
+          padding: 40px 0 20px;
+          &:nth-child(1) {
+            color: #956f25;
+            font-weight: bold;
+            padding-left: 20px;
+            width: 225px;
+          }
+          &:nth-child(2) {
+            .status-img {
+              width: (909px/2);
+              img {
+                display: block;
+                width: 100%;
+              }
+            }
+          }
+          a {
+            color: #031581;
+          }
+        }
+      }
+    }
   }
  }
 
