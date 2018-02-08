@@ -44,7 +44,7 @@
       color: #956f25;
       display: block;
       float: left;
-      font-family: 'Belleza', sans-serif;
+      font-family: HandelGothic;
       font-size: 18px;
       line-height: 20px;
       margin-left: 50px;
@@ -109,7 +109,7 @@
       color: #956f25;
       display: block;
       float: left;
-      font-family: 'Belleza', sans-serif;
+      font-family: HandelGothic;
       font-size: 18px;
       line-height: 20px;
       margin-left: 50px;
@@ -175,7 +175,7 @@
       width: 50px; }
     #p-banner section.other-banner h2 {
       color: #956f25;
-      font-family: 'Belleza', sans-serif;
+      font-family: HandelGothic;
       font-size: 45px;
       line-height: 45px;
       text-align: center; }
@@ -200,7 +200,7 @@
     background-size: cover;
     color: #956f25;
     display: block;
-    font-family: 'Belleza', sans-serif;
+    font-family: HandelGothic;
     font-size: 40px;
     line-height: 40px;
     margin: 0 0 70px;
@@ -218,7 +218,7 @@
     background-size: cover;
     color: #956f25;
     display: block;
-    font-family: 'Belleza', sans-serif;
+    font-family: HandelGothic;
     font-size: 32px;
     line-height: 32px;
     margin: 0 0 70px;
@@ -238,7 +238,7 @@
       width: 590px; }
       #p-contents section aside article h2 {
         color: #956f25;
-        font-family: 'Belleza', sans-serif;
+        font-family: HandelGothic;
         font-size: 34px;
         line-height: 34px;
         margin: 15px 0 10px; }
@@ -268,7 +268,7 @@
         border-radius: 8px;
         color: #fff;
         display: block;
-        font-family: 'Belleza', sans-serif;
+        font-family: HandelGothic;
         font-size: 18px;
         line-height: 18px;
         margin: 0 auto;
@@ -605,7 +605,7 @@
     #p-footer .contact h3 {
       color: #956f25;
       display: block;
-      font-family: 'Belleza', sans-serif;
+      font-family: HandelGothic;
       font-size: 45px;
       line-height: 45px;
       margin: 0 auto 10px;
